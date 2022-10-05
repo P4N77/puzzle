@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./imagen/2061.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+   border-radius: 15px;
+    background-color: rgb(237, 219, 250);
+    width: 520px;
+    margin: auto;
+    height: 520px;
+    -webkit-box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73); 
+box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73);
+}
+.puz_container{
+    padding: 27px;
+    margin-left: 5px;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.boton{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+   border-radius: 15px;
+   background-color: white;
+   color: black;
+   font-family: 'Heebo', sans-serif;
+   font-weight: 500;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}

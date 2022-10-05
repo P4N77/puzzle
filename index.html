@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <h2 class="titulo">Puzzle</h2>
+    </header>
+    <main>
+        <section class="container">
+            <table class="puz_container">
+                <tr>
+                    <td> <img id="img0" src="./imagen/1.jpg" width="150px" height="150px" onclick="seleccionar(0);"></td>
+                    <td> <img id="img1" src="./imagen/2.jpg" width="150px" height="150px" onclick="seleccionar(1);"></td>
+                    <td> <img id="img2" src="./imagen/3.jpg"width="150px" height="150px" onclick="seleccionar(2);"></td>
+                </tr>
+
+                <tr>
+                    <td><img id="img3" src="./imagen/4.jpg"width="150px" height="150px" onclick="seleccionar(3);" ></td>
+                    <td><img id="img4" src="./imagen/5.jpg"width="150px" height="150px" onclick="seleccionar(4);" ></td>
+                    <td><img id="img5" src="./imagen/6.jpg"width="150px" height="150px" onclick="seleccionar(5);" ></td>
+                </tr>
+
+                <tr>
+                    <td><img id="img6" src="./imagen/7.jpg"width="150px" height="150px" onclick="seleccionar(6);" ></td>
+                    <td><img id="img7" src="./imagen/8.jpg"width="150px" height="150px" onclick="seleccionar(7);" ></td>
+                    <td><img id="img8" src="./imagen/9.jpg"width="150px" height="150px" onclick="seleccionar(8);" ></td>
+                </tr>
+            </table>
+        </section>
+        <section class="boton">
+            <input id="btnComprobar" type="button" value="comprobar" class="btn" >
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
 </body>
 </html>
