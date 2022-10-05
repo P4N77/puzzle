@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="talento">
+    <meta name="description" content="Diseño web con COEX">
+    <meta name="keywords" content="Aprende logica, html, css ,javascript, DB, vue.js, laravel">
+    <title>Puzzle</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!--encabezado con titulo-->
     <header>
         <h2 class="titulo">Puzzle</h2>
     </header>
     <main>
+         <!--contenedor del puzzle-->
         <section class="container">
+             <!--puzzle-->
             <table class="puz_container">
                 <tr>
                     <td> <img id="img0" src="./imagen/1.jpg" width="150px" height="150px" onclick="seleccionar(0);"></td>
@@ -33,11 +39,18 @@
                 </tr>
             </table>
         </section>
+        <!--boton para la comprobacion del puzzle-->
         <section class="boton">
             <input id="btnComprobar" type="button" value="comprobar" class="btn" >
         </section>
     </main>
-
+<!--script para ejecutar el javascript-->
     <script src="./main.js"></script>
+    <!--pie de pagina-->
+    <footer>
+        <section>
+            <p class="develop">German Moreno | Talento Coex</p>
+        </section>
+    </footer>
 </body>
 </html>

@@ -1,14 +1,18 @@
+/* fuente de letra*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+/*reseteo*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*estilo del cuerpo*/
 body{
     background-image: url(./imagen/2061.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*estilo del contenedor del puzzle*/
 .container{
    border-radius: 15px;
     background-color: rgb(237, 219, 250);
@@ -18,10 +22,12 @@ body{
     -webkit-box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73); 
 box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73);
 }
+/*estilo del puzzle*/
 .puz_container{
     padding: 27px;
     margin-left: 5px;
 }
+/*estilo del titulo*/
 .titulo{
     text-align: center;
     padding-bottom: 20px;
@@ -29,6 +35,7 @@ box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73);
     font-family: 'Heebo', sans-serif;
     color: rgb(255, 255, 255);
 }
+/*estilo del boton*/
 .boton{
     width: 100px;
     height: 30px;
@@ -36,6 +43,7 @@ box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73);
     text-align: center;
     padding-top: 20px;
 }
+/*estilo del boton*/
 .btn{
     width: 100px;
     height: 30px;
@@ -45,7 +53,12 @@ box-shadow: 2px 5px 11px 5px rgba(0,0,0,0.73);
    font-family: 'Heebo', sans-serif;
    font-weight: 500;
 }
+/*estilo del boton*/
 .btn:hover{
     background-color: black;
     color: white;
+}
+.develop{
+    text-align: center;
+    padding-top: 30px;
 }
